@@ -1,0 +1,10 @@
+# Never commit raw device captures.
+# They contain UDIDs, device names, MAC addresses, certificate serials,
+# location data, and the names of apps the user had open.
+*.log
+*.logarchive
+*.tar
+*.pid
+latest-ts.txt
+raw/
+filtered/
