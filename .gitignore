@@ -1,6 +1,6 @@
-# Never commit raw device captures.
-# They contain UDIDs, device names, MAC addresses, certificate serials,
-# location data, and the names of apps the user had open.
+# Raw captures stay out of git.
+# They carry UDIDs, device names, MAC addresses, certificate serials, location
+# data and the names of whatever apps were open, so treat them as private.
 *.log
 *.logarchive
 *.tar
